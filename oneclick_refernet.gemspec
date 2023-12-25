@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
   s.test_files = Dir["spec/**/*"]
 
-  s.add_dependency "rails", "~> 5.0.3"
+  s.add_dependency "rails", ">= 5.0.3", "< 7"
   
   # Geospatial
   s.add_dependency 'pg'
